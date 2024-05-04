@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="header">Student Portal</section>
+        <div class="main">
+            <div class="search">
+                <input type="text" id="search-bar" placeholder="search">
+                <button type="submit" id="search-button">Search</button>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="sort" id="btn1">Sort A->Z</button>
+                <button type="submit" class="sort" id="btn2">Sort Z->A</button>
+                <button type="submit" id="btn3" class="sort">Sort By Marks</button>
+                <button type="submit" id="btn4" class="sort">Sort By Passing</button>
+                <button type="submit" id="btn5" class="sort">Sort By Class</button>
+                <button type="submit" id="btn6" class="sort">Sort By Gender</button>
+            </div>
+
+            <table style="width:98%" class="sampleTable">
+                <thead>
+                    <th style="width:6%">ID</th>
+                    <th style="width:30%">Name</th>
+                    <th style="width:10%;">Gender</th>
+                    <th style="width:8%;">Class</th>
+                    <th style="width:8%;">Marks</th>
+                    <th style="width:10%;">Passing</th>
+                    <th style="width:30%">Email</th>
+                </thead>
+                <tbody id="myTableBody">
+                    <tr>
+                        <td>1</td>
+                        <td class="tdname"><img class="img" src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1"><span class="name">himanshu kumar</span></td>
+                        <td>male</td>
+                        <td>8</td>
+                        <td>87</td>
+                        <td>Passed</td>
+                        <td>Avikumsr@gmailmk.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
